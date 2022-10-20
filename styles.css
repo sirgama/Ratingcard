@@ -64,7 +64,7 @@ p{
     justify-content: space-between;
 
 }
-#on, #tw, #tr, #fo, #fi{
+.rate{
     padding: 13px 18px;
     border-radius: 50%;
     background: rgb(47, 54, 63);
@@ -72,16 +72,14 @@ p{
     font-weight: 700;
     cursor: pointer;
 }
-#on:hover, #tw:hover, #tr:hover, #fo:hover, #fi:hover{
+.rate:hover{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
-
-
-#on::after, #tw::after, #tr::after, #fo::after, #fi::after{
+.rate::after{
     background-color: hsl(217, 12%, 63%);
 }
-#on:active, #tw:active, #tr:active, #fo:active, #fi:active{
+.rate:active{
     background-color: hsl(217, 12%, 63%);
 }
 
