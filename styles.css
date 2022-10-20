@@ -5,6 +5,104 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
+    
 }
+
+body{
+    margin: 0 auto;
+    background: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+}
+
+.card{
+    margin: 20px auto;
+    width: 90%;
+    max-width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+    border-radius: 20px;
+    background: linear-gradient(2deg, hsl(213, 19%, 18%), hsl(213, 19%, 18%), hsl(213, 19%, 18%));
+}
+.star{
+    background: rgb(47, 54, 63);
+    color: hsl(25, 97%, 53%);
+    border-radius: 50%;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    margin: 18px auto 10px;
+}
+p{
+    font-size: 15px;
+    margin: 20px auto;
+}
+.card-body{
+    padding: 10px;
+}
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 13px;
+    border-radius: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.submit-btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    font-size: 15px;
+}
+.rates{
+    display: flex;
+    justify-content: space-between;
+
+}
+#on, #tw, #tr, #fo, #fi{
+    padding: 13px 18px;
+    border-radius: 50%;
+    background: rgb(47, 54, 63);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#on:hover, #tw:hover, #tr:hover, #fo:hover, #fi:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+#on::after, #tw::after, #tr::after, #fo::after, #fi::after{
+    background-color: hsl(217, 12%, 63%);
+}
+#on:active, #tw:active, #tr:active, #fo:active, #fi:active{
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
