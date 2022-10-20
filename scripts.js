@@ -18,3 +18,4 @@ document.querySelectorAll('.rate').forEach(item => {
     })
   })
 
+
